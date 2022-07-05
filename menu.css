@@ -1,0 +1,22 @@
+<style>
+.content {
+    display:inline-block;
+    cursor: pointer;
+}
+.num1 , .num2 , .num3 {
+    width: 35px;
+    height: 5px;
+    margin: 6px 0px;
+    background-color: red;
+    transition:0.5s;
+}
+.change .num1 {
+    transform: rotate(-45deg) translate(-9px , 6px);
+}
+.change .num2 {
+    opacity:0;
+}
+.change .num3 {
+    transform: rotate(45deg) translate(-8px , -8px)
+}
+</style>
